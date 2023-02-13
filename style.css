@@ -1,18 +1,34 @@
 body {
   font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
 }
 
 header {
-  background-color: black;
-  color: white;
+  background-color: lightblue;
   padding: 20px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+  text-align: center;
 }
 
-h1 {
+header h1 {
   margin: 0;
+}
+
+header nav ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+header nav li {
+  margin: 0 10px;
+}
+
+header nav a {
+  color: white;
+  text-decoration: none;
 }
 
 main {
@@ -20,57 +36,8 @@ main {
 }
 
 footer {
-  background-color: lightgray;
-  color: black;
+  background-color: lightblue;
+  color: white;
   padding: 10px;
   text-align: center;
-}
-
-button {
-  background-color: white;
-  color: black;
-  border: none;
-  padding: 10px 20px;
-  border-radius: 5px;
-  cursor: pointer;
-}
-
-.dark-mode {
-  background-color: black;
-  color: white;
-}
-
-.dark-mode header {
-  background-color: gray;
-}
-
-.dark-mode main {
-  background-color: gray;
-}
-
-.dark-mode footer {
-  background-color: black;
-  color: lightgray;
-}
-
-.dark-mode button {
-  background-color: gray;
-  color: white;
-}
-
-#popup {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  background-color: white;
-  padding: 20px;
-  border: 1px solid gray;
-  border-radius: 5px;
-  text-align: center;
-}
-
-#popup a {
-  color: blue;
-  text-decoration: underline;
 }
