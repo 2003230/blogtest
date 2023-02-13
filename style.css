@@ -57,3 +57,20 @@ button {
   background-color: gray;
   color: white;
 }
+
+#popup {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  padding: 20px;
+  border: 1px solid gray;
+  border-radius: 5px;
+  text-align: center;
+}
+
+#popup a {
+  color: blue;
+  text-decoration: underline;
+}
